@@ -1,0 +1,110 @@
+-----Overview of SQL Server
+SQL Server is a relational database management system (RDBMS) developed by Microsoft. It stores and retrieves data as requested by other software applications. It supports T-SQL (Transact-SQL), which is Microsoft's proprietary extension to SQL.
+
+----Editions of SQL Server
+--Express Edition: Free, lightweight, ideal for learning and small applications.
+--Standard Edition: Includes core database features, suitable for medium-scale applications.
+--Enterprise Edition: Full-featured, designed for large-scale, mission-critical applications.
+---- SQL Server Management Studio (SSMS)
+--SSMS is an integrated environment for managing SQL Server infrastructure. It allows users to:
+
+Write and execute queries
+Manage databases and objects
+Monitor performance
+Configure security
+
+ ---- Database Basics
+----Creating Databases
+
+You can create a database using the CREATE DATABASE statement or via SSMS GUI. Example:
+
+---Tables and Relationships
+Tables store data in rows and columns. Relationships define how tables are connected:
+
+One-to-One
+One-to-Many
+Many-to-Many
+
+Foreign keys enforce relationships between tables.
+
+--Data Types in SQL Server
+
+Common data types include:
+
+--INT, BIGINT – integers
+--VARCHAR, NVARCHAR – strings
+--DATE, DATETIME – date/time
+--BIT – boolean
+--DECIMAL, FLOAT – numeric types
+--SQL Query Language
+
+--SELECT Statement
+Used to retrieve data:
+-Filtering and Sorting Data
+WHERE clause filters rows
+ORDER BY sorts results
+
+----Joins and Subqueries
+    INNER JOIN: Matches rows from both tables
+ LEFT JOIN: All rows from left table + matched from right
+   Subqueries: Nested queries inside another query
+
+--- Aggregating Data with GROUP BY and HAVING
+Used to group rows and apply aggregate functions:
+
+
+--- Common Table Expressions (CTEs)
+Temporary result sets used for complex queries:
+
+Stored Procedures, Functions, and Views ,Creating stored procedures, User-defined functions (UDFs), Views and indexed views give proper explanation with examples
+
+--Stored Procedures
+-- What is a Stored Procedure?
+A Stored Procedure is a precompiled collection of one or more SQL statements that can be executed as a unit. It helps in:
+
+Reusing code
+Improving performance
+Enhancing security
+-- Creating a Stored Procedure
+
+-- Executing a Stored Procedure
+
+-- Benefits
+Encapsulation of logic
+Reduced network traffic
+Easier maintenance
+
+-- User-Defined Functions (UDFs)
+-- What is a UDF?
+A User-Defined Function is a routine that accepts parameters, performs an action, and returns a result. It can be:
+
+--Scalar: Returns a single value
+Table-valued: Returns a table
+--Scalar Function Example
+
+-- Using the Function
+
+--- Table-Valued Function Example
+
+---Benefits
+Modular code
+Can be reused in queries
+Improves readability
+
+--Views and Indexed Views
+-- What is a View?
+A View is a virtual table based on the result of a SQL query. It simplifies complex queries and enhances security by exposing only necessary data.
+
+--- Creating a View
+
+--Using a View
+
+--Indexed Views
+An Indexed View is a view that has a unique clustered index. It stores the result set physically and improves performance for complex queries.
+
+---Creating an Indexed View (simplified example)
+
+---Benefits
+Simplifies query logic
+Enhances performance (especially with indexed views)
+Improves security by abstracting sensitive columns
