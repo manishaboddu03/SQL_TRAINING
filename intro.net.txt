@@ -1,0 +1,29 @@
+---.Net is a application development platform to build desktop,web and mobile appications.
+----it is not a single lang it is  integration multiple lang.
+----create the web applications using .net
+----desktop applications:
+  ---run on the local desktop(on local operating system) thet means you create desktop applications such as calculator,notepad,accounting software,supermarket building applicatoons 
+these applications may or may not be interact with the internet these applications are called "stand alone applications" which must be installed in every machine
+---web apploications hosted on the server example google,fb,e-commerce applications because they hosed on the server accessible on their server
+---store the data into database and retrieve  data from the database
+---and also you can create mobile applications using .NET
+---what is .NET:
+  ----Application Development
+--- developed by Microsoft in 2002
+  
+--in .NET we have Component called CLR(Common lang runtime)and secure for environment
+--it offers best performace 
+--.NET supports multiple languages like c#,vb,vc++,etc...
+--most of the developers used C# lang which is advanced c++
+--c++ introduced in 1980's
+
+--why we used .NET:
+  ---secured execution environment(any .NET application run in very faster
+ --wide variety of applications(menads not only web,mobile application aany related .NET application with secured
+---.NET supports code re - usability
+
+
+.NET DEVLOPS OR SUPPORTS TWO MODULES I.E
+
+ASP.NET:(WEB SITES,WEB APPLICATIONS,WEB SERVICES)
+C#.NET:(windows GUI(Graphical user interface) applications,windows services,console applications)

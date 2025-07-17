@@ -1,0 +1,34 @@
+speed coder .NET
+2407722@cognizant.com
+mom(min of meeting)
+
+11/07/2025
+
+Application:
+ 
+ IT
+ Information Technology
+ ---data is collection of facts,figures and observation
+ ---Semiconductor memory
+ ----manually
+ --memory
+ --speed Accuracy
+-- Like bank,Reservations,printing
+--processing and presentation
+--information
+software or application
+
+Roles---
+
+hardware
+n/w
+Development
+System Administrator
+n/Eng
+Devops Engg
+testing
+
+Developement--
+  
+--Application is a piece of software or code used for specific purpose
+--ex; notepad
