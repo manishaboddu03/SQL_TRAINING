@@ -1,0 +1,31 @@
+ Challenge Problems
+ 
+1. Write a query to get customers who have more than one account.
+
+ SELECT CUSTOMERID FROM ACCOUNTS GROUP BY CUSTOERID HAVING COUNT(ACCOUNTID)>1
+
+
+2. Write a query to show total credited and debited amount per account.
+
+
+SELECT 
+    AccountID,
+    SUM(CASE WHEN TransactionType = 'Credit' THEN Amount ELSE 0 END) AS TotalCredited,
+    SUM(CASE WHEN TransactionType = 'Debit' THEN Amount ELSE 0 END) AS TotalDebited
+FROM Transactions
+GROUP BY AccountID;
+
+
+3. Add a new column BranchName to the Accounts table.
+
+ALTER TABLE Accounts 
+ADD BranchName VARCHAR(100);
+
+
+4. Delete all transactions older than 6 months.
+
+DELETE FROM Transactions
+WHERE TransactionDate < DATEADD(MONTH, -6, GETDATE());
+
+
+ 
